@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Applicant Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Applicant Tracker</h1>
+    <form id="appForm">
+      <input id="name" placeholder="Name" required />
+      <input id="email" placeholder="Email" type="email" required />
+      <input id="city" placeholder="City" />
+      <input id="skills" placeholder="Skills (comma separated)" />
+      <button type="submit">Save Applicant</button>
+    </form>
+
+    <table id="appTable">
+      <thead><tr><th>Name</th><th>Email</th><th>City</th><th>Skills</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <script src="App.js"></script>
+</body>
+</html>
